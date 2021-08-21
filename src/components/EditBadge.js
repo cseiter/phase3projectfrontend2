@@ -11,7 +11,7 @@ export const EditBadge = () => {
             <Label>Name</Label>
             <Input type="text" placeholder="enter badge name, with underscore replacing a space"></Input>
         </FormGroup>
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Update</Button>
         <Link to="/" className="btn btn-danger">Cancel</Link>
     </Form>
     </div>
