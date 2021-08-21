@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{maxWidth: "50%", margin: "5px auto", border: "2px solid black" }}>
       <h1>Merit Badge Tracker</h1>
       <Router>
         <h1>Nav</h1>
