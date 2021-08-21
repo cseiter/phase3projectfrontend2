@@ -12,7 +12,7 @@ function App() {
       <Router>
         <h1>Nav</h1>
         <Switch>
-          <Router path="editbadge/:id" component={EditBadge} />
+          <Route path="/editbadge/:id" component={EditBadge} />
           <Route path="/addbadge" component={AddBadge} />
           <Route path="/" component={Home} />
         </Switch>
