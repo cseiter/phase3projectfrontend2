@@ -3,7 +3,7 @@ import {Form, FormGroup, Label, Input, Button} from 'reactstrap';
 
 export const AddBadge = () => {
     return (
-        <div>
+        <div className="text-center" style={{maxWidth: "90%", margin: "10px auto", border: "2px solid green"}}>
             <h1> Add Badge</h1>
             <Form>
                 <FormGroup>
