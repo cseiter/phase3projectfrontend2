@@ -11,7 +11,6 @@ function App() {
     <div style={{maxWidth: "50%", margin: "5px auto", border: "2px solid black" }}>
       <h1>Merit Badge Tracker</h1>
       <Router>
-        <h1>Nav</h1>
         <Switch>
           <Route path="/editbadge/:id" component={EditBadge} />
           <Route path="/addbadge" component={AddBadge} />
