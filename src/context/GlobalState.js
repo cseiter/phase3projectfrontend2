@@ -4,7 +4,6 @@ import AppReducer from './AppReducer';
 const initialState = {
     badges: fetch('http://localhost:9393/badges')
         .then(r => r.json())
-        .then(badgesRes => setBadges(badgesRes))
 }
 
 export const GlobalContext = createContext(initialState)
