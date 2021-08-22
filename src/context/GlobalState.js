@@ -1,5 +1,5 @@
 import React, {createContext, useReducer} from 'react';
-import AddReducer from './AppReducer';
+import AppReducer from './AppReducer';
 
 const initialState = {
     badges: fetch('http://localhost:9393/badges')
