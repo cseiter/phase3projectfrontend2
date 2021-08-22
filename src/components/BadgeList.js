@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext} from 'react';
 import { Link } from 'react-router-dom';
 import {ListGroup, ListGroupItem, Button} from 'reactstrap';
+import { GlobalContext } from '../context/GlobalState';
 
 export const BadgeList = () => {
+    const { badges } = useContext(GlobalContext);
+    console.log(badges);
     return (
         <ListGroup>
             <ListGroupItem className="d-flex">
